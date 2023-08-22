@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: initial;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color:whitesmoke;
+}
+
+header {
+    background:url(/images/pexels.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0  auto;
+
+}
+
+.menu {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.menu .Logo {
+    font-weight: 700;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 8px 25px;
+    border-radius: 25px;
+    color:rgb(255, 255, 255);
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color:rgb(54, 125, 231);
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label  {
+    cursor: pointer;
+    display: none;
+}
+.header-content {
+    display: flex;
+}
+
+a.active, a:hover {
+    background: rgb(43, 42, 42);
+    transition: .5s;
+}
+
+.content {
+    padding: 160px 150px 0px 0px;
+}
+
+.content h1 {
+    color: #f8f8f8;
+    font-size: 75px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 70px;
+
+}
+
+
+.content p {
+    margin-top: 25px;
+    color:white;
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 40px;
+
+}
+
+.btn-1 {
+    display: inline-block;
+    background-color: #1c3875;
+    border: 1px solid #000000;
+    margin: 35px 10px 0px 0px;
+    padding: 15px 25px;
+    color:white;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+
+
+.btn-1:hover {
+    background-color:rgb(105, 164, 253);
+}
+
+.btn-3 {
+    display: inline-block;
+    background-color: #1c3875;
+    border: 1px solid #080808;
+    margin: 0px 20px 0px 0px;
+    padding: 15px 25px;
+    color:white;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.btn-3:hover {
+    background-color: #f3f3fa;
+
+}
+
+.btn-5 {
+    display: inline-block;
+    background-color: #1c3875;
+    border: 1px solid #080808;
+    margin: 0px 10px 0px 0px;
+    padding: 15px 25px;
+    color:white;
+    border-radius: 25px;
+}
+
+
+
+.btn-2 {
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color:#1c3875;
+    color:rgb(255, 255, 255);
+}
+
+.btn-2:hover {
+    background-color:rgb(105, 164, 253);
+}
+.footer {
+    background-color: black;
+    padding: 50px 0;
+}
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-links {
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-links h4 {
+    font-size: 20px;
+    color: azure;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #002fff;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.footer-links ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color:beige;
+    display:block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+.footer-links ul li a:hover {
+    color: #ffffff;
+    padding-left: 6px;
+
+}
+.social-link a {
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all .5s ease;
+}
